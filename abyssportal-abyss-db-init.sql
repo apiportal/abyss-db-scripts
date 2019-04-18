@@ -6598,6 +6598,7 @@ COPY abyss.message_type (id, uuid, organizationid, created, updated, deleted, is
 --
 
 COPY abyss.organization (id, uuid, organizationid, created, updated, deleted, isdeleted, crudsubjectid, name, description, url, isactive, picture) FROM stdin;
+2	9287b7dc-058d-4399-aad0-6fa704decb6b	9287b7dc-058d-4399-aad0-6fa704decb6b	2018-07-05 13:54:58.645	2019-03-18 11:03:29.710373	\N	f	e20ca770-3c44-4a2d-b55d-2ebcaa0536bc	FAIKs Organization	FAIK's Organization	www.example.com	t	
 0	3c65fafc-8f3a-4243-9c4e-2821aa32d293	3c65fafc-8f3a-4243-9c4e-2821aa32d293	2018-05-21 13:49:02.843767	2019-03-12 18:55:30.074721	\N	f	e20ca770-3c44-4a2d-b55d-2ebcaa0536bc	Abyss	Abyss Public Organization	apiportal.com	t	
 \.
 
